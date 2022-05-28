@@ -20,6 +20,9 @@
       "vite-plugin-vue-layouts/client",
       "unplugin-icons/types/vue",
     ],
+    "paths": {
+      "~/*": ["src/*"]
+    }
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "exclude": ["dist", "node_modules"]
